@@ -1,0 +1,145 @@
+/* font family  */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+/* shortcut section start  */
+.yellow-color{
+    color: #FEA301;
+}
+.skyblue-color{
+    color: #01ACFD;
+}
+.display-flex{
+    display: flex;
+}
+.width{
+    max-width:1440px;
+    margin:0 auto;
+}
+.width2{
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.display{
+    display: flex;
+    
+}
+.border{
+    border: 1px solid red;
+}
+.btn{  
+    background-color: #FEA301;
+    font-size: 14px;
+    color: white;
+    padding: 10px 30px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+}
+
+/* nav iteam start  */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.hamburger{
+    display: none;
+    font-size: 24px;
+}
+.navbar-middle{
+    justify-content: center;
+    align-items: center;
+}
+.navbar-middle li{
+    list-style: none;
+}
+.navbar-middle a{
+    text-decoration: none;
+    margin: 0 14px;
+    
+}
+.navbar-right-content{
+    background-color: #FEA301;
+    font-size: 14px;
+    color: white;
+    padding: 5px 30px;
+    font-weight: 500;
+    border-radius: 4px;
+    border: none;
+}
+/* nav iteam end here  */
+
+/* main section start  */
+.banner-section{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.banner1{
+    margin-right: 100px;
+}
+.banner1 p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner-h1{
+    font-size: 56px;
+    font-weight: 700;
+}
+/* main section end  */
+
+
+
+
+
+
+/* media quiry start here  */
+@media screen and (max-width: 576px){
+    .logo-content, .navbar-middle, .navbar-right-content{
+        display:none;
+    }
+    .hamburger {
+        display: block;
+    }
+    .navbar {
+        border-bottom: 2px solid orangered;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .nav-logo{
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        margin-left: 30px;
+    }
+    .hamburger{
+        margin-right: 30px;
+    }
+
+    /* nav iteam end */
+
+    /* main section start  */
+    .banner-section{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        max-width: 100%;
+    }
+    .banner1{
+       margin: 10px auto;
+       padding: 5px;
+    }
+    /* main section end  */
+
+
+
+
+
+}
