@@ -7,6 +7,18 @@
     font-weight: weight;
     font-style: normal;
   }
+  body{
+    background-image: url(../assets/bg.png);
+  }
+.bg{
+    background-color:azure;
+  }
+.boi{
+    border-radius: 20px 20px 0px 0px;
+}
+.boc{
+    border-radius: 20px;
+}
 /* shortcut section start  */
 .yellow-color{
     color: #FEA301;
@@ -25,10 +37,7 @@
     max-width: 1160px;
     margin: 0 auto;
 }
-.display{
-    display: flex;
-    
-}
+
 .border{
     border: 1px solid red;
 }
@@ -42,6 +51,25 @@
     border: none;
 }
 
+.btn1{  
+    background-color: #01ACFD;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    bottom: 20px;
+}
+.margin{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.img{
+    width: 100%;
+    display: block;
+}
 /* nav iteam start  */
 .navbar{
     justify-content: space-between;
@@ -105,7 +133,7 @@
     justify-content: space-between;
 }
 .card1{
-    background-image: linear-gradient(#DEF5FF,#ffffffec );
+    background-image: linear-gradient(#DEF5FF,#cccba4c4 );
     border-radius: 20px;
     text-align: center;
     width: 360px;
@@ -125,6 +153,30 @@
     margin-top: 50px;
    
 }
+.font-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    margin-top: 100px;
+    font-size: 70px;
+    margin-bottom: 50px;
+   
+}
+.left-stories{
+    
+    margin-right: 20px;
+   
+}
+
+.right-stories{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    
+}
+
+
 
 /* main section end  */
 
@@ -168,6 +220,37 @@
        margin: 10px auto;
        padding: 5px;
     }
+    .card-iteam{
+        flex-direction: column;
+        align-items: center;
+       justify-content: center;
+       row-gap: 20px;
+    }
+    .font-icon{
+        display: none;
+    }
+    .stories-iteam{
+       margin: 0px 200px;
+    }
+    .total-stories{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .left-stories{
+        display: none;
+    }
+    .right-stories img{
+        width: 100%;
+       
+        display: block; 
+
+    .right-stories{
+        grid-template-columns: 2fr; 
+    
+    }
+    
     /* main section end  */
 
 
